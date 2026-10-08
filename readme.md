@@ -1,0 +1,2 @@
+This folder contains the enhanced dataset that I created on OpenRefine as part of a class assignment in university.
+For further context, please refer to my website: https://jenessa-diep.framer.website/works/basc0033 

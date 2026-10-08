@@ -1,0 +1,101 @@
+.index {
+    background-color: #88BFC4;
+    font-family: "Lucida Console", monospaced;
+    min-height: 100vh;
+    min-height: 100svh;
+    margin: 60px auto;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+    box-shadow: 3px 3px 0px #777777, -3px -3px 0px #ffffff;
+    box-sizing: border-box;
+}
+
+.index #header-container {
+    font-weight: bold;
+    background-color: #010081;
+    background-image: linear-gradient(to right, #010081, #3683D6, #C8DFFA);
+    padding: 8px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.index #main p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.index #main h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.index #main {
+    padding: 35px;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.table {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.index p {
+    font-size: 16px;
+}
+
+.button-link {
+    padding: 10px 20px;
+    margin: 10px;
+    color: black;
+    font: 16px "Lucida Console", monospaced;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: #E0E0E0;
+    box-shadow: 3px 3px 0px #777777, -3px -3px 0px #ffffff;
+    transition: background-color 200ms ease, box-shadow 200ms ease, border-color 200ms ease,transform 200ms ease;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-link:hover {
+    background-color: #010100;
+    box-shadow: 3px 3px 0px inset #777777, -3px -3px 0px inset #ffffff;
+    transform: translateY(-1px);
+    color: #FFFFFF;
+    border: none;
+}
+
+.index h2 {
+    font-family: "Lucida Console", monospaced;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #7b9dcf;
+}
